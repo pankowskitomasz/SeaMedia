@@ -1,0 +1,105 @@
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 13, ../sass/partials/_mixins.scss */
+.index-s1 {
+  min-height: 100vh;
+}
+
+/* line 13, ../sass/partials/_mixins.scss */
+.index-s3 {
+  min-height: 50vh;
+}
+
+/* line 13, ../sass/partials/_mixins.scss */
+.index-s4 {
+  min-height: 50vh;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.bg-img {
+  background-image: url("../img/gray-bg.jpg");
+  background-repeat: repeat;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.box-shadow {
+  box-shadow: 1px 1px 4px #666;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
+.dim-hover:hover {
+  opacity: 0.6;
+}
+
+/* line 16, ../sass/partials/_modules.scss */
+.fixed-size {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* line 22, ../sass/partials/_modules.scss */
+.h-50vh {
+  min-height: 50vh;
+}
+
+/* line 29, ../sass/partials/_modules.scss */
+.index-s5__col-left-1 {
+  background-image: url("../img/index-s5-bg-1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 32, ../sass/partials/_modules.scss */
+.index-s5__col-left-2 {
+  background-image: url("../img/index-s5-bg-2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 37, ../sass/partials/_modules.scss */
+.index-s5__col-right-1 {
+  background-image: url("../img/index-s5-bg-3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 40, ../sass/partials/_modules.scss */
+.index-s5__col-right-2 {
+  background-image: url("../img/index-s5-bg-4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 47, ../sass/partials/_modules.scss */
+.style-none {
+  text-decoration: none !important;
+}
+
+/* line 52, ../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 55, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 58, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 62, ../sass/partials/_modules.scss */
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+/* line 67, ../sass/partials/_modules.scss */
+.z-index-top {
+  z-index: 100;
+}

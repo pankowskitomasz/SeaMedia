@@ -1,0 +1,71 @@
+.bg{
+    &-img{
+        @include set-bg-img($bg-img);
+    }
+}
+.box{
+    &-shadow{
+        box-shadow: $box-shadow;
+    }
+}
+.dim-hover{
+    &:hover{
+        opacity: 0.6
+    }
+}
+.fixed-size{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.h{
+    &-50vh{
+        min-height: $height-half;
+    }
+}
+.index{
+    &-s5__col{
+        &-left{
+            &-1{
+                @include set-bg-cover($index-s5__col-left-1-bg);
+            }
+            &-2{
+                @include set-bg-cover($index-s5__col-left-2-bg);
+            }
+        }
+        &-right{
+            &-1{
+                @include set-bg-cover($index-s5__col-right-1-bg);
+            }
+            &-2{
+                @include set-bg-cover($index-s5__col-right-2-bg);
+            }
+        }
+    }
+}
+.style{
+    &-none{
+        text-decoration: none !important;
+    }
+}
+.opacity{
+    &-7{
+        opacity: 0.7;
+    }
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.z{
+    &-index{
+        &-top{
+            z-index: 100;
+        }
+    }
+}
