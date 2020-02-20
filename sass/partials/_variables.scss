@@ -3,6 +3,8 @@ $box-shadow: 1px 1px 4px #666;
 $color-black: #000;
 $color-gray: #999;
 $color-dark-gray: #444;
+$font-logo: 'Aclonica', sans-serif;
+$font-menu: 'Khula', sans-serif;
 $height-full: 100vh;
 $height-half: 50vh;
 $index-s5__col-left-1-bg: "../img/index-s5-bg-1.jpg";
@@ -10,7 +12,10 @@ $index-s5__col-left-2-bg: "../img/index-s5-bg-2.jpg";
 $index-s5__col-right-1-bg: "../img/index-s5-bg-3.jpg";
 $index-s5__col-right-2-bg: "../img/index-s5-bg-4.jpg";
 $section-full-height:
-    "index-s1";
+    "confirm-s1",
+    "error-s1",
+    "index-s1",
+    "privacy-s1";
 $section-half-height:
     "index-s3"
     "index-s4";
@@ -18,4 +23,5 @@ $section-third-height:
     "index-s2",
     "index-s6";
 $text-shadow-black: 0 2px 5px black;
-$text-shadow-gray: 0 1px 3px $color-dark-gray;
+$text-shadow-gray: 0 0 3px $color-gray;
+$text-shadow-gray-dark: 0 0 3px $color-dark-gray;
