@@ -43,7 +43,7 @@
 	</div>
 </nav>
 <section class="index-s1 container-fluid p-0 bg-dark overflow-x-hidden">
-	<div class="carousel slide" data-ride="caro usel" id="crs">
+	<div class="carousel slide" data-ride="carousel" id="crs">
 		<ol class="carousel-indicators">
 			<li class="active" data-target="#crs" data-slide-to="0"></li>
 			<li data-target="#crs" data-slide-to="1"></li>
@@ -232,11 +232,11 @@
 				manage and implement content for your business or brand social 
 				media marketing.
 			</p>
-			<form method="post" action="subscribe.php" target="_blank">
+			<form method="post">
 				<div class="form-group">
 					<input type="email" name="fsmail" 
-						class="form-control rounded-0" 
-						placeholder="Enter your email">
+						class="form-control text-center rounded-0" 
+						placeholder="Enter your email" disabled>
 					<input type="submit" 
 						class="form-control btn btn-dark rounded-0" 
 						value="GET A FREE GUIDE">
@@ -260,10 +260,12 @@
 				operators in the South which allows for quick and unique 
 				shots to promote your business or product.
 			</p>
-			<a href="portfolio.html#video" 
-				class="btn btn-outline-secondary text-shadow-none">
-				VIDEO PORTFOLIO
-			</a>
+			<div class="w-100 text-center">
+				<a href="portfolio.html#video" 
+					class="btn btn-outline-secondary text-shadow-none">
+					VIDEO PORTFOLIO
+				</a>
+			</div>
 		</div>
 	</div>
 	<div class="row">		
@@ -285,10 +287,12 @@
 				From beautiful real estate photography in Charleston SC 
 				to beaches, marsh, sunsets, downtown historic shots, etc.
 			</p>
-			<a href="portfolio.html#photo" 
-				class="btn btn-outline-secondary text-shadow-none">
-				PHOTO PORTFOLIO
-			</a>
+			<div class="w-100 text-center">
+				<a href="portfolio.html#photo" 
+					class="btn btn-outline-secondary text-shadow-none">
+					PHOTO PORTFOLIO
+				</a>
+			</div>
 		</div>
 		<div class="col-12 col-md-6 index-s5__col-right-1 h-50vh 
 			order-0 order-md-1 box-shadow"></div>
@@ -315,10 +319,12 @@
 				to fully functional interactive sites. User experience comes 
 				first while maintaining a consistent, modern image.
 			</p>
-			<a href="portfolio.html#design" 
-				class="btn btn-outline-secondary text-shadow-none">
-				DESIGN PORTFOLIO
-			</a>
+			<div class="w-100 text-center">
+				<a href="portfolio.html#design" 
+					class="btn btn-outline-secondary text-shadow-none">
+					DESIGN PORTFOLIO
+				</a>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -338,10 +344,12 @@
 				These accounts are the face of your brand, connecting with 
 				thousands in your market every week
 			</p>
-			<a href="portfolio.html#marketing" 
-				class="btn btn-outline-secondary text-shadow-none">
-				MARKETING PORTFOLIO
-			</a>
+			<div class="w-100 text-center">
+				<a href="portfolio.html#marketing" 
+					class="btn btn-outline-secondary text-shadow-none">
+					MARKETING PORTFOLIO
+				</a>
+			</div>
 		</div>
 		<div class="col-12 col-md-6 index-s5__col-right-2 h-50vh 
 			order-0 order-md-1 box-shadow"></div>
@@ -351,18 +359,21 @@
 	<div class="row text-center">	
 		<div class="col-10 offset-1 col-md-8 offset-md-2 opacity-9">
 			<h2 class="font-logo text-shadow-gray-dark">CONTACT US</h2>
-			<form class="w-100" method="post" action="error.php">
+			<form class="w-100 contact-form" method="post" action="error.php">
 				<div class="row px-0 px-sm-5">
 					<div class="col-10 col-sm-6 mx-auto">
 						<input type="text" name="fname" 
-							class="form-control mb-3 rounded-0 p-2" 
+							class="form-control mb-3 rounded-0 p-2 box-shadow" 
 							placeholder="Enter name" required="required">
 						<input type="email" name="fmail" 
-							class="form-control mb-3 mb-sm-0 rounded-0 p-2" 
+							class="form-control mb-3 mb-sm-0 rounded-0 p-2 box-shadow" 
 							placeholder="Enter email" required="required">
 					</div>
 					<div class="col-10 col-sm-6 mx-auto">
-						<textarea class="form-control h-100 mb-3 rounded-0 p-2" placeholder="Enter your message" name="fmessage" required="required"></textarea>
+						<textarea class="form-control h-100 mb-3 rounded-0 p-2  box-shadow" 
+							placeholder="Enter your message" 
+							name="fmessage" 
+							required="required"></textarea>
 					</div>
 					<div class="col-12 text-center mx-auto my-4">
 						<input type="reset" class="btn btn-outline-light" value="Reset">
@@ -379,7 +390,7 @@
 		</div>
 		<div class="col-12 col-sm-8 col-md-6 mx-sm-auto my-4 text-center text-sm-left">
 			<h4 class="font-logo">THE IMPORTANCE OF AUTHORITATIVE CONTENT</h4>
-			<h6 class="text-secondary">January 31, 2017</h6>
+			<h6 class="text-secondary">January 31, 2020</h6>
 			<p class="text-black-50">
 				Learning from the spread of fake news on Facebook
 			</p>
@@ -404,7 +415,7 @@
 		</div>
 		<div class="col-12 col-sm-8 col-md-6 mx-sm-auto my-4 text-center text-sm-left">
 			<h4 class="font-logo">EFFECTIVE VIDEO MARKETING</h4>
-			<h6 class="text-secondary">January 24, 2017</h6>
+			<h6 class="text-secondary">January 24, 2020</h6>
 			<p class="text-black-50">
 				As video technology continues to improve, we must take notice 
 				of the effective and persuasive power of video marketing. 
@@ -474,6 +485,38 @@
         </small>
 	</div>
 </footer>
+<div class="modal" id="privacyModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="font-weight-bold text-secondary font-logo mx-auto">GPDR Declaration</h4>
+			</div>
+			<div class="modal-body">
+				<p class="initialism">
+					This website is a <span class="badge badge-danger badge-pill"> demo version </span> of real website,  It doesn't collect and process,
+					in long term meaning (longer than needed for website operation during visitor's
+					presence), any user (visitor) data. All information collected during visitor's 
+					presence on this website is used only for technical purposes, required for 
+					correct operation of website or demonstration purposes related to technical 
+					mechanisms and presentation of its operation...<br/>
+					<a href="privacy.html" class="badge badge-primary badge-pill">More about privacy</a>
+				</p>                        
+				<p class="initialism">
+					If you accept privacy policy please click button "accept". If you 
+					refuse it, leave page by closing it in your web browser, please.
+				</p>
+			</div>
+			<div class="modal-footer">
+				<div class="text-center w-100">
+					<button class="btn btn-success"
+						onclick="acceptPrivacyPolicy()">
+						Accept
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>    
 <script type="text/javascript" src="js/main.min.js"></script>
 </body>
 </html>

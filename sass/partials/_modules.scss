@@ -8,6 +8,13 @@
         box-shadow: $box-shadow;
     }
 }
+.contact{
+    &-s1{
+        &__col-left{
+            @include set-bg-cover($contact-s1__col-left-bg);
+        }
+    }
+}
 .dim-hover{
     &:hover{
         opacity: 0.6
@@ -51,6 +58,16 @@
         }
     }
 }
+.maxh{
+    &-50vh{
+        max-height: 50vh;
+    }
+}
+.object{
+    &-cover{
+        object-fit: cover;
+    }
+}
 .opacity{
     &-7{
         opacity: 0.7;
@@ -92,4 +109,8 @@
             z-index: 100;
         }
     }
+}
+
+textarea{
+    resize: none;
 }
