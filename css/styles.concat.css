@@ -154,109 +154,110 @@ body, html {
   width: 100vw;
   height: 50vh;
   object-fit: cover;
+  min-height: 360px;
 }
 
-/* line 29, ../sass/partials/_modules.scss */
+/* line 30, ../sass/partials/_modules.scss */
 .font-logo {
   font-family: "Aclonica", sans-serif;
 }
-/* line 32, ../sass/partials/_modules.scss */
+/* line 33, ../sass/partials/_modules.scss */
 .font-menu {
   font-family: "Khula", sans-serif;
 }
 
-/* line 37, ../sass/partials/_modules.scss */
+/* line 38, ../sass/partials/_modules.scss */
 .h-50vh {
   min-height: 50vh;
 }
 
-/* line 44, ../sass/partials/_modules.scss */
+/* line 45, ../sass/partials/_modules.scss */
 .index-s5__col-left-1 {
   background-image: url("../img/index-s5-bg-1.jpg");
   background-position: center center;
   background-size: cover;
 }
-/* line 47, ../sass/partials/_modules.scss */
+/* line 48, ../sass/partials/_modules.scss */
 .index-s5__col-left-2 {
   background-image: url("../img/index-s5-bg-2.jpg");
   background-position: center center;
   background-size: cover;
 }
-/* line 52, ../sass/partials/_modules.scss */
+/* line 53, ../sass/partials/_modules.scss */
 .index-s5__col-right-1 {
   background-image: url("../img/index-s5-bg-3.jpg");
   background-position: center center;
   background-size: cover;
 }
-/* line 55, ../sass/partials/_modules.scss */
+/* line 56, ../sass/partials/_modules.scss */
 .index-s5__col-right-2 {
   background-image: url("../img/index-s5-bg-4.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 62, ../sass/partials/_modules.scss */
+/* line 63, ../sass/partials/_modules.scss */
 .maxh-50vh {
   max-height: 50vh;
 }
 
-/* line 67, ../sass/partials/_modules.scss */
+/* line 68, ../sass/partials/_modules.scss */
 .object-cover {
   object-fit: cover;
 }
 
-/* line 72, ../sass/partials/_modules.scss */
+/* line 73, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 75, ../sass/partials/_modules.scss */
+/* line 76, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 78, ../sass/partials/_modules.scss */
+/* line 79, ../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 82, ../sass/partials/_modules.scss */
+/* line 83, ../sass/partials/_modules.scss */
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
-/* line 86, ../sass/partials/_modules.scss */
+/* line 87, ../sass/partials/_modules.scss */
 .style-none {
   text-decoration: none !important;
 }
 
-/* line 92, ../sass/partials/_modules.scss */
+/* line 93, ../sass/partials/_modules.scss */
 .text-shadow-black {
   text-shadow: 0 2px 5px black;
 }
-/* line 95, ../sass/partials/_modules.scss */
+/* line 96, ../sass/partials/_modules.scss */
 .text-shadow-gray {
   text-shadow: 0 1px 1px #999;
 }
-/* line 96, ../sass/partials/_modules.scss */
+/* line 97, ../sass/partials/_modules.scss */
 .text-shadow-gray-dark {
   text-shadow: 0 0 3px #444;
 }
-/* line 101, ../sass/partials/_modules.scss */
+/* line 102, ../sass/partials/_modules.scss */
 .text-shadow-none {
   text-shadow: none;
 }
 
-/* line 108, ../sass/partials/_modules.scss */
+/* line 109, ../sass/partials/_modules.scss */
 .z-index-top {
   z-index: 100;
 }
 
-/* line 114, ../sass/partials/_modules.scss */
+/* line 115, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 119, ../sass/partials/_modules.scss */
+  /* line 120, ../sass/partials/_modules.scss */
   .navbar-collapse {
     backdrop-filter: blur(15px);
     border: 1px solid #666;
