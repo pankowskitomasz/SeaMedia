@@ -152,7 +152,7 @@ body, html {
 /* line 23, ../sass/partials/_modules.scss */
 .fixed-size {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   object-fit: cover;
 }
 
@@ -253,4 +253,13 @@ body, html {
 /* line 114, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 119, ../sass/partials/_modules.scss */
+  .navbar-collapse {
+    backdrop-filter: blur(15px);
+    border: 1px solid #666;
+    padding: 20px;
+  }
 }
