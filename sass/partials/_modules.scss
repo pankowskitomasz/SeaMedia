@@ -22,8 +22,9 @@
 }
 .fixed-size{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     object-fit: cover;
+    min-height: 360px;
 }
 .font{
     &-logo{
@@ -113,4 +114,12 @@
 
 textarea{
     resize: none;
+}
+
+@media all and (max-width:767px){
+    .navbar-collapse{
+        backdrop-filter: blur(15px);
+        border: 1px solid #666;
+        padding:20px;
+    }
 }
