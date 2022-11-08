@@ -4,6 +4,11 @@
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<meta property="og:title" content="Sea Media">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<meta property="og:locale" content="en_US">
 	<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.min.css"/>
